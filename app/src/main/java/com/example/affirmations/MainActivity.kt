@@ -69,7 +69,7 @@ fun AffirmationList(affirmationList: List<Affirmation>, modifier: Modifier = Mod
 
 @Composable
 fun AffirmationCard(affirmation: Affirmation, modifier: Modifier = Modifier) {
-    Card(modifier = Modifier.padding(8.dp), elevation = 4.dp) {
+    Card(modifier = Modifier.padding(8.dp)) {
         Column {
             Image(
                 painter = painterResource(affirmation.imageResourceId),
